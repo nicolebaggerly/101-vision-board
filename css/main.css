@@ -1,0 +1,97 @@
+body {
+	background-color: #E8E8E8;
+	color: black;
+}
+
+#vision-board {
+	width: 1200px;
+	height: 850px;
+	background-image: url('../img/background.png');
+	margin: 50px auto;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.block {
+	margin: 0 auto;
+}
+
+.small-block {
+	width: 400px;
+	height: 210px;
+	float: left;
+	box-sizing: border-box;
+	padding: 0px 40px 0px 40px;
+}
+
+.large-block {
+	width: 400px;
+	height: 430px;
+	float: left;
+	box-sizing: border-box;
+	padding: 30px 40px 10px 40px;
+}
+
+
+/*** Backgrounds ***/
+.light-bg {
+	width: 400px;
+	height: 210px;
+	background-color: #FFFFFF;
+	box-sizing: border-box;
+	float: left;
+}
+
+.dark-bg {
+	width: 400px;
+	height: 430px;
+	background-color: #3B3B3B;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+/*** Text ***/
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.right {
+	text-align: right;
+	margin: 20px 0 20px 0;
+}
+
+.title {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: 'Permanent Marker', sans-serif;
+	line-height: 25px;
+}
+
+.highlight {
+	background-color: #FFF44F;
+	color: black;
+	padding: 0.2em 0.7em 0.2em 0.7em;
+	font-size: 20px;
+	line-height: 5px;
+}
+
+strong {
+	font-size: 38px;
+	text-transform: capitalize;
+	line-height: 40px;
+}
+
+img {
+	margin-top: 10px;
+}
